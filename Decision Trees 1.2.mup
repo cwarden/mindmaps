@@ -11,8 +11,9 @@
           "Development Cost": "100000"
         },
         "style": {
-          "background": "#E0E0E0"
-        }
+          "background": "transparent"
+        },
+        "progress": "1"
       },
       "ideas": {
         "1": {
@@ -21,12 +22,40 @@
           "ideas": {
             "1": {
               "title": "Success",
-              "id": 5
+              "id": 5,
+              "attr": {
+                "measurements": {
+                  "Revenue": "1000000",
+                  "Probability": "0.5"
+                },
+                "style": {
+                  "background": "#E0E0E0"
+                }
+              }
             },
             "2": {
               "title": "Failure",
-              "id": 6
+              "id": 6,
+              "attr": {
+                "measurements": {
+                  "Probability": "0.5"
+                },
+                "style": {
+                  "background": "#E0E0E0"
+                }
+              }
             }
+          },
+          "attr": {
+            "style": {
+              "background": "#ff9900"
+            },
+            "progress": "1",
+            "position": [
+              153,
+              0,
+              1
+            ]
           }
         }
       }
@@ -49,11 +78,33 @@
           "ideas": {
             "1": {
               "title": "Success",
-              "id": 8
+              "id": 8,
+              "attr": {
+                "measurements": {
+                  "Revenue": "400000",
+                  "Probability": "0.5"
+                },
+                "style": {
+                  "background": "#E0E0E0"
+                }
+              }
             },
             "2": {
               "title": "Failure",
-              "id": 9
+              "id": 9,
+              "attr": {
+                "measurements": {
+                  "Probability": "0.5"
+                },
+                "style": {
+                  "background": "#E0E0E0"
+                }
+              }
+            }
+          },
+          "attr": {
+            "style": {
+              "background": "#ff9900"
             }
           }
         }
@@ -62,10 +113,12 @@
   },
   "attr": {
     "measurements-config": [
-      "Development Cost"
+      "Development Cost",
+      "Revenue",
+      "Probability"
     ],
     "style": {
-      "background": "#22AAE0"
+      "background": "#00ccff"
     }
   }
 }
