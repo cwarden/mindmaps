@@ -1,0 +1,89 @@
+{
+  "title": "Decision",
+  "id": 1,
+  "formatVersion": 2,
+  "ideas": {
+    "1": {
+      "title": "Buy",
+      "id": 2,
+      "attr": {
+        "style": {
+          "background": "transparent"
+        },
+        "progress": "1",
+        "measurements": {
+          "Expected Value": "1000000"
+        }
+      },
+      "ideas": {
+        "1": {
+          "title": "Import License?",
+          "id": 4,
+          "ideas": {
+            "1": {
+              "title": "Granted",
+              "id": 5,
+              "attr": {
+                "measurements": {
+                  "Revenue": "3000000",
+                  "Probability": "0.5"
+                },
+                "style": {
+                  "background": "#E0E0E0"
+                }
+              }
+            },
+            "2": {
+              "title": "Not Granted",
+              "id": 6,
+              "attr": {
+                "measurements": {
+                  "Probability": "0.5",
+                  "Revenue": "-1000000"
+                },
+                "style": {
+                  "background": "#E0E0E0"
+                }
+              }
+            }
+          },
+          "attr": {
+            "style": {
+              "background": "#ff9900"
+            },
+            "progress": "1",
+            "position": [
+              153,
+              0,
+              1
+            ],
+            "measurements": {
+              "Expected Value": "0"
+            }
+          }
+        }
+      }
+    },
+    "11": {
+      "title": "Don't Buy",
+      "id": 3,
+      "attr": {
+        "style": {
+          "background": "#E0E0E0"
+        }
+      },
+      "ideas": {}
+    }
+  },
+  "attr": {
+    "measurements-config": [
+      "Revenue",
+      "Probability",
+      "Expected Value"
+    ],
+    "style": {
+      "background": "#00ccff"
+    }
+  },
+  "links": []
+}
