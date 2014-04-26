@@ -1,0 +1,71 @@
+{
+  "title": "Decision",
+  "id": 1,
+  "formatVersion": 2,
+  "ideas": {
+    "1": {
+      "title": "Temperature Sensor",
+      "id": 2,
+      "attr": {
+        "measurements": {
+          "Development Cost": "100000"
+        },
+        "style": {
+          "background": "#E0E0E0"
+        }
+      },
+      "ideas": {
+        "1": {
+          "title": "Development Outcome",
+          "id": 4,
+          "ideas": {
+            "1": {
+              "title": "Success",
+              "id": 5
+            },
+            "2": {
+              "title": "Failure",
+              "id": 6
+            }
+          }
+        }
+      }
+    },
+    "11": {
+      "title": "Pressure Sensor",
+      "id": 3,
+      "attr": {
+        "measurements": {
+          "Development Cost": "10000"
+        },
+        "style": {
+          "background": "#E0E0E0"
+        }
+      },
+      "ideas": {
+        "1": {
+          "title": "Development Outcome",
+          "id": 7,
+          "ideas": {
+            "1": {
+              "title": "Success",
+              "id": 8
+            },
+            "2": {
+              "title": "Failure",
+              "id": 9
+            }
+          }
+        }
+      }
+    }
+  },
+  "attr": {
+    "measurements-config": [
+      "Development Cost"
+    ],
+    "style": {
+      "background": "#22AAE0"
+    }
+  }
+}
