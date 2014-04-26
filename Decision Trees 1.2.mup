@@ -55,7 +55,10 @@
               153,
               0,
               1
-            ]
+            ],
+            "measurements": {
+              "Expected Value": "400000"
+            }
           }
         }
       }
@@ -82,7 +85,7 @@
               "attr": {
                 "measurements": {
                   "Revenue": "400000",
-                  "Probability": "0.5"
+                  "Probability": "0.8"
                 },
                 "style": {
                   "background": "#E0E0E0"
@@ -94,7 +97,7 @@
               "id": 9,
               "attr": {
                 "measurements": {
-                  "Probability": "0.5"
+                  "Probability": "0.2"
                 },
                 "style": {
                   "background": "#E0E0E0"
@@ -105,17 +108,25 @@
           "attr": {
             "style": {
               "background": "#ff9900"
+            },
+            "measurements": {
+              "Expected Value": "310000"
             }
           }
         }
       }
+    },
+    "21": {
+      "title": "Neither",
+      "id": 10
     }
   },
   "attr": {
     "measurements-config": [
       "Development Cost",
       "Revenue",
-      "Probability"
+      "Probability",
+      "Expected Value"
     ],
     "style": {
       "background": "#00ccff"
