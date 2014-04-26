@@ -4,7 +4,7 @@
   "formatVersion": 2,
   "ideas": {
     "1": {
-      "title": "Buy",
+      "title": "Buy before import license",
       "id": 2,
       "attr": {
         "style": {
@@ -59,6 +59,85 @@
             ],
             "measurements": {
               "Expected Value": "0"
+            }
+          }
+        }
+      }
+    },
+    "6": {
+      "title": "Buy after import license",
+      "id": 11,
+      "ideas": {
+        "1": {
+          "title": "Import License Granted?",
+          "id": 15,
+          "ideas": {
+            "1": {
+              "title": "Granted",
+              "id": 17,
+              "ideas": {
+                "1": {
+                  "title": "Still Available?",
+                  "id": 12,
+                  "attr": {
+                    "style": {
+                      "background": "#ff9900"
+                    }
+                  },
+                  "ideas": {
+                    "1": {
+                      "title": "Available",
+                      "id": 13,
+                      "attr": {
+                        "measurements": {
+                          "Revenue": "3000000",
+                          "Probability": "0.3"
+                        },
+                        "style": {
+                          "background": "#E0E0E0"
+                        }
+                      }
+                    },
+                    "2": {
+                      "title": "Not Available",
+                      "id": 14,
+                      "attr": {
+                        "measurements": {
+                          "Probability": "0.7"
+                        },
+                        "style": {
+                          "background": "#E0E0E0"
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "attr": {
+                "measurements": {
+                  "Probability": "0.5\n"
+                },
+                "style": {
+                  "background": "#E0E0E0"
+                }
+              }
+            },
+            "2": {
+              "title": "Not Granted",
+              "id": 16,
+              "attr": {
+                "measurements": {
+                  "Probability": "0.5"
+                },
+                "style": {
+                  "background": "#E0E0E0"
+                }
+              }
+            }
+          },
+          "attr": {
+            "style": {
+              "background": "#ff9900"
             }
           }
         }
